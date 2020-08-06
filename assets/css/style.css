@@ -86,7 +86,8 @@ footer {
 
 .top-wrapper {
     padding: 180px 0 100px 0;
-    background-image: url("../images/header/l7.JPG");
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("../images/header/l7.JPG");
+    background-position-x: center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -123,6 +124,7 @@ footer {
     display: inline-block;
     border-radius: 4px;
     text-align: center;
+    opacity: 0.9;
 }
 
 .btn:hover {
@@ -408,4 +410,18 @@ footer {
 
 	margin-right: 3px;
 	margin-bottom: 5px;
+}
+
+article {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+article p {
+    text-indent: 10%;
+}
+
+.non-para {
+    text-indent: 0%;
 }

@@ -1,0 +1,22 @@
+.top-wrapper {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/header/header-goa-cemara.JPG");
+    background-size: cover;
+    background-position-x: center;
+}
+
+@media screen and (max-width: 800px) {
+    article {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+a, a:link {
+    text-decoration: none;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
